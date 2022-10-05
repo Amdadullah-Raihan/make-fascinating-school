@@ -1,0 +1,22 @@
+.teacher{
+    border: 1px solid lavender;
+    padding: 20px;
+}
+img{
+    width: 150px;
+    border: none ;
+    border-radius:50% ;
+    background-color:lightskyblue;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color:lightskyblue;
+    cursor: pointer;
+}
+.icon{
+    /* color: white; */
+    padding: 0 3px;
+    font-size: 0.8em;
+}

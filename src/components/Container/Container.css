@@ -1,0 +1,13 @@
+/*  */
+.teachers-container{
+    width:70%;
+    height: auto;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 50px 10px 50px 50px;
+}
+.consideration-container{
+    margin: 30px;
+    
+}
