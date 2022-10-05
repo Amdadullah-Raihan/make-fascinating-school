@@ -7,7 +7,7 @@ import "./Teacher.css"
 const Teacher = (props) => {
     // console.log(props);
    
-    const {first_name, last_name, img, salary,gender} = props.teacher;
+    const {first_name, last_name, img, salary,gender,country, varsity,department} = props.teacher;
     // const handleConsideration = props.handleConsideration;
 
     let pronoun;
@@ -24,7 +24,10 @@ const Teacher = (props) => {
                 <img src={img} alt="" />
                 <h4>Name: {first_name} {last_name}</h4>
                 <p>Gender: {gender}</p>
-                <p></p>
+                <p>Varsity: {varsity}</p>
+                <p>
+                    Department: {department}
+                </p>
                 <p>Salary: ${salary}</p>
                 <button onClick={()=>props.handleConsideration(props.teacher)}>Consider {pronoun} <FontAwesomeIcon className='icon' icon={faUserPlus} />
                 </button>
